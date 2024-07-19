@@ -11,8 +11,8 @@ let imageUrls = [
 function displayImages() {
   const slideContainer = document.querySelector(".slide");
   const galleryContainer = document.querySelector(".imageGallery");
-  slideContainer.innerHTML = ""; // Clear existing images in the slider
-  galleryContainer.innerHTML = ""; // Clear existing images in the gallery
+  slideContainer.innerHTML = "";
+  galleryContainer.innerHTML = "";
 
   imageUrls.forEach((url) => {
     const slideItemDiv = document.createElement("div");
